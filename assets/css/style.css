@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100vw;
+    display: grid;
+    grid-template-rows: .15fr 5fr 0.5fr;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem 0 5rem;
+    background-color: #271b14;
+    color: white;
+
+}
+
+header ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main .home {
+    background-image: url(../images/homeBackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10rem;
+}
+
+main .home__GUI {
+    position: relative;
+}
+
+main .home__GUI h1 {
+    font-size: 6rem;
+}
+
+main .home__GUI button {
+    position: absolute;
+    top: 280px;
+    left: 580px;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    width: 388px;
+    height: 67px;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    color: white;
+    font-size: 2rem;
+
+}
+
+main .home p {
+    font-size: 2.3rem;
+}
+
+main .services {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+main .services__group {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+main .services__group img {
+    width: 100%;
+    border-radius: 10px;
+
+    
+}
+
+main .services__info{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 5rem 0 5rem 0;
+    font-size: 2rem;
+    gap:2rem;
+}
+
+main .form{
+    background-image: url(../images/fornBackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    outline: none;
+    
+}
+main .form h1{
+    margin-bottom: 4rem;
+    font-size: 3.1rem;
+}
+
+main .form p{
+    font-size: 3rem;
+}
+
+main .form button{
+    width: 15vw;
+    height: 70px;
+    font-size: 1.3rem;
+    background-color: #E3FF36;
+    cursor: pointer;
+}
+
+main .form__components {
+    display: flex;
+    flex-direction: column;
+    gap:.2rem;
+    margin: 4rem 0 4rem 0;
+    
+    
+}
+main .form__components label{
+    margin-left: 1rem;
+
+    
+}
+
+main form input{
+    width: 40vw;
+    height: 70px;
+    outline: none;
+   
+}
+main form input::placeholder{
+    font-size: 1.4rem;
+    line-height: 4;
+
+}
