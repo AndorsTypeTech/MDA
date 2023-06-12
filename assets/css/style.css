@@ -7,10 +7,6 @@
 
 .container {
     width: 100vw;
-    display: grid;
-    grid-template-rows: .15fr 5fr 0.5fr;
-
-
 }
 
 header {
@@ -18,9 +14,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 10rem 0 5rem;
-    background-color: #271b14;
     color: white;
-
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
 }
 
 header ul {
@@ -41,7 +38,7 @@ main .home {
     background-repeat: no-repeat;
     background-size: cover;
 
-    height: 100vh;
+    height: 110vh;
     color: white;
     display: flex;
     justify-content: center;
@@ -167,4 +164,63 @@ main form input::placeholder{
     font-size: 1.4rem;
     line-height: 4;
 
+}
+main .adress {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .adress__info {
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+
+    -webkit-box-shadow: 10px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    z-index: 1;
+} main .adress__info button{
+    width: 60%;
+    height: 10%;
+}
+main .adress__info--flex{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    font-size: 1.2rem;
+}
+main .adress__info--flex p{
+    padding-left: 1rem;
+    white-space: nowrap;
+    text-decoration:none;
+    color:black;
+}
+
+.cursosPointer{
+    cursor: pointer;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+}
+footer .footer__andors{
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: .5rem;
+    padding-right:4rem;
 }
