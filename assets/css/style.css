@@ -1,26 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: 'Geologica', sans-serif;
 }
 
 .container {
     width: 100vw;
-    display: grid;
-    grid-template-rows: .15fr 5fr 0.5fr;
-
-
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    background-color: #271b14;
     align-items: center;
     padding: 0 10rem 0 5rem;
-    background-color: #271b14;
     color: white;
-
+    position: fixed;
+    width: 100vw;
+    height: 3vw;
+    z-index: 1;
 }
 
 header ul {
@@ -41,7 +43,7 @@ main .home {
     background-repeat: no-repeat;
     background-size: cover;
 
-    height: 100vh;
+    height: 110vh;
     color: white;
     display: flex;
     justify-content: center;
@@ -54,13 +56,14 @@ main .home__GUI {
 }
 
 main .home__GUI h1 {
+    font-weight: 700;
     font-size: 6rem;
 }
 
 main .home__GUI button {
     position: absolute;
-    top: 280px;
-    left: 580px;
+    top: 300px;
+    left: 650px;
     transform: translate(-50%, -50%);
     background-color: transparent;
     width: 388px;
@@ -86,27 +89,27 @@ main .services {
 main .services__group {
     display: flex;
     justify-content: space-around;
-    
+
 }
 
 main .services__group img {
     width: 100%;
     border-radius: 10px;
 
-    
+
 }
 
-main .services__info{
+main .services__info {
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     margin: 5rem 0 5rem 0;
     font-size: 2rem;
-    gap:2rem;
+    gap: 2rem;
 }
 
-main .form{
+main .form {
     background-image: url(../images/fornBackground.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -118,24 +121,28 @@ main .form{
     justify-content: center;
     align-items: center;
 }
-main form{
+
+main form {
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
     outline: none;
-    
+    gap: 1rem;
+
 }
-main .form h1{
+
+main .form h1 {
     margin-bottom: 4rem;
     font-size: 3.1rem;
 }
 
-main .form p{
+main .form p {
     font-size: 3rem;
+
 }
 
-main .form button{
+main .form button {
     width: 15vw;
     height: 70px;
     font-size: 1.3rem;
@@ -146,25 +153,97 @@ main .form button{
 main .form__components {
     display: flex;
     flex-direction: column;
-    gap:.2rem;
-    margin: 4rem 0 4rem 0;
-    
-    
+    gap: .2rem;
+    margin-top: 1rem;
+
 }
-main .form__components label{
+
+main .form__components label {
     margin-left: 1rem;
 
-    
 }
 
-main form input{
+main form input {
     width: 40vw;
     height: 70px;
     outline: none;
-   
+
+
 }
-main form input::placeholder{
+
+main form input::placeholder {
     font-size: 1.4rem;
     line-height: 4;
 
+}
+
+main .adress {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .adress__info {
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    -webkit-box-shadow: 10px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    z-index: 1;
+}
+
+main .adress__info button {
+    width: 60%;
+    height: 10%;
+    border: none;
+    background-color: #E3FF36;
+
+    -webkit-box-shadow: -1px 2px 21px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 2px 21px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 2px 21px -6px rgba(0, 0, 0, 0.75);
+}
+
+main .adress__info--flex {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+main .adress__info--flex p {
+    padding-left: 1rem;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+
+.cursosPointer {
+    cursor: pointer;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+}
+
+footer .footer__andors {
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: .5rem;
+    padding-right: 4rem;
 }
