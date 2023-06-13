@@ -2,6 +2,23 @@
     header ul{
         font-size: 1.6vw;
     }
+
+    main .home__GUI h1 {
+        font-size: 4rem;
+    }
+
+    main .home__GUI button{
+        top: 200px;
+        left:460px;
+        width: 310px;
+        height: 67px;
+        font-size: 1.5rem;
+    }
+    
+main .home p {
+    font-size: 1.5rem;
+}
+
     main .adress__info--flex {
         font-size: 1vw;
     }
@@ -17,14 +34,15 @@
     main .adress__info button {
         margin-left: 1.5rem;
     }
-
+    main .form h1{
+        margin-bottom: 1rem;
+    }
     main .form button {
         width: 25vw;
     }
     main .adress__info--flex img{
         width: 74%;
     }
-}
 }
 
 @media only screen and (max-width: 1200px) {
@@ -162,7 +180,7 @@
     }
 
     main .form h1 {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         font-size: 6vw;
     }
 
