@@ -224,7 +224,8 @@ main .adress__info {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 1rem 0 1rem 0rem;
+    justify-content: space-between;;
     gap: 1rem;
 
     -webkit-box-shadow: 10px 0px 5px 0px rgba(0, 0, 0, 0.75);
