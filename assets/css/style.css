@@ -25,12 +25,7 @@ header {
     z-index: 1;
 }
 
-.ativo{
-    background-color: rgb(39, 21, 1);
-}
-.show{
-    display: block;
-}
+
 header h1{
     font-size: 2vw;
     cursor: pointer;
@@ -40,11 +35,17 @@ header ul {
     display: flex;
     gap: 3rem;   
     align-items: center;
+   
 }
 header li{
     font-size: 1vw;
     list-style: none;
+    text-decoration: none;
     cursor: pointer;
+}
+
+header a{
+    color: white;
 }
 
 header li:hover{
@@ -224,8 +225,7 @@ main .adress__info {
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 1rem 0 1rem 0rem;
-    justify-content: space-between;;
+    justify-content: center;
     gap: 1rem;
 
     -webkit-box-shadow: 10px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -252,12 +252,13 @@ main .adress__info--flex {
     font-size: 1vw;
 }
 
-main .adress__info--flex p {
+main .adress__info--flex p{
     padding-left: 1rem;
     white-space: nowrap;
     text-decoration: none;
     color: black;
 }
+
 
 .cursosPointer {
     cursor: pointer;
@@ -280,4 +281,14 @@ footer .footer__andors {
     align-items: center;
     gap: .5rem;
     padding-right: 4rem;
+}
+
+.textdecoration{
+    text-decoration: none;
+}
+.ativo{
+    background-color: rgb(39, 21, 1);
+}
+.show{
+    display: block;
 }
