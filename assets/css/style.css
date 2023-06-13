@@ -212,7 +212,7 @@ main form input::placeholder {
 }
 
 main .adress {
-    height: 40vh;
+    height: 45vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -235,10 +235,10 @@ main .adress__info {
 
 main .adress__info button {
     width: 80%;
-    height: 10%;
+    height: 13%;
     border: none;
     background-color: #E3FF36;
-
+    margin: 0 0 0 1.5rem;
     -webkit-box-shadow: -1px 2px 21px -6px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -1px 2px 21px -6px rgba(0, 0, 0, 0.75);
     box-shadow: -1px 2px 21px -6px rgba(0, 0, 0, 0.75);

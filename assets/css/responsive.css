@@ -75,7 +75,7 @@
         font-size: 1.5vw;
     }
     main .adress {
-        height: 35vh;
+        height: 45vh
     }
 
     main .adress__info {
@@ -125,6 +125,13 @@
     main form input {
         width: 50vw;
     }
+
+    main .adress__info {
+        display: none;
+     }
+     iframe{
+         width: 100%;
+     }
 }
 
 
