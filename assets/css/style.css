@@ -248,7 +248,7 @@ main .adress__info--flex {
     display: flex;
     width: 100%;
     align-items: center;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
 main .adress__info--flex p {
