@@ -15,22 +15,50 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #271b14;
+    background: rgba(0, 0, 0, 0.27);
     align-items: center;
     padding: 0 10rem 0 5rem;
     color: white;
     position: fixed;
     width: 100vw;
-    height: 3vw;
+    height: 4vw;
     z-index: 1;
+}
+
+.ativo{
+    background-color: rgb(39, 21, 1);
+}
+.show{
+    display: block;
+}
+header h1{
+    font-size: 2vw;
+    cursor: pointer;
 }
 
 header ul {
     display: flex;
-    gap: 3rem;
+    gap: 3rem;   
+    align-items: center;
+}
+header li{
+    font-size: 1vw;
     list-style: none;
+    cursor: pointer;
 }
 
+header li:hover{
+    font-size: 1.2vw;
+} 
+header button{
+    background-color: transparent;
+    width: 120px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    color: white;
+    display: none;
+    
+}
 main {
     display: flex;
     flex-direction: column;
@@ -74,9 +102,14 @@ main .home__GUI button {
     font-size: 2rem;
 
 }
+main .home__GUI button:hover {
+
+    background-color: white;
+    color:black;
+}
 
 main .home p {
-    font-size: 2.3rem;
+    font-size: 2.3vw;
 }
 
 main .services {
@@ -94,7 +127,7 @@ main .services__group {
 
 main .services__group img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
 
 
 }
@@ -105,7 +138,7 @@ main .services__info {
     justify-items: center;
     align-items: center;
     margin: 5rem 0 5rem 0;
-    font-size: 2rem;
+    font-size: 2vw;
     gap: 2rem;
 }
 
@@ -134,11 +167,11 @@ main form {
 
 main .form h1 {
     margin-bottom: 4rem;
-    font-size: 3.1rem;
+    font-size: 3.1vw;
 }
 
 main .form p {
-    font-size: 3rem;
+    font-size: 3vw;
 
 }
 
@@ -147,6 +180,7 @@ main .form button {
     height: 70px;
     font-size: 1.3rem;
     background-color: #E3FF36;
+    border: none;
     cursor: pointer;
 }
 
@@ -186,12 +220,11 @@ main .adress {
 }
 
 main .adress__info {
-    width: 30vw;
+    width: 20vw;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 1rem;
 
     -webkit-box-shadow: 10px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -201,7 +234,7 @@ main .adress__info {
 }
 
 main .adress__info button {
-    width: 60%;
+    width: 80%;
     height: 10%;
     border: none;
     background-color: #E3FF36;
@@ -213,9 +246,9 @@ main .adress__info button {
 
 main .adress__info--flex {
     display: flex;
-    width: 80%;
+    width: 100%;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.2vw;
 }
 
 main .adress__info--flex p {
