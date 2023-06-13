@@ -138,6 +138,7 @@ main .services__info {
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    text-align:center;
     margin: 5rem 0 5rem 0;
     font-size: 2vw;
     gap: 2rem;
