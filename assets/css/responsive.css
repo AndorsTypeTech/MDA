@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1366px) {
     header ul{
         font-size: 1.6vw;
     }
@@ -21,6 +21,10 @@
     main .form button {
         width: 25vw;
     }
+    main .adress__info--flex img{
+        width: 74%;
+    }
+}
 }
 
 @media only screen and (max-width: 1200px) {
