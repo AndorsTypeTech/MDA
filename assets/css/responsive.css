@@ -164,6 +164,10 @@ main .home p {
             padding-left: 0rem;
         
     }
+    main .home__GUI {
+    height: 50%;
+
+}
 
     main .services__group img {
         margin-left: 1.1rem;
