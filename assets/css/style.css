@@ -208,7 +208,7 @@ main form input {
 }
 
 main form input::placeholder {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 4;
 
 }
